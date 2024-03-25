@@ -1,5 +1,5 @@
 import sqlite3
-from . import CURSOR,CONN
+from __init__ import CURSOR,CONN
 from profile import Profile
 
 class MilkProfile:

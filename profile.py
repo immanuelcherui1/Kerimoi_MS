@@ -1,5 +1,5 @@
 import sqlite3
-from . import CURSOR,CONN
+from __init__ import CURSOR,CONN
 
 class Profile:
     def __init__(self, name, national_id ,age, gender,id=None):
